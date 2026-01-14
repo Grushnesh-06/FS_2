@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+h1{
+  margin: 10px;
+}
+h3{
+  margin: 10px;
+}
+p{
+  margin: 5px;
+}
+.by{
+  margin: 0px 0px 20px 0px;
+}
+.app {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.output {
+  margin-top: 20px;
+}
