@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  border: 4px black;
+  color: black;
+  margin: 5px;
+}
+.by{
+  margin-top: 0px;
+}
+h1{
+  margin: 10px;
+}
+.plus{
+  background-color: rgb(0, 254, 0);
+}
+
+.minus{
+  background-color: red;
+}
+
+.plus:hover {
+  filter: drop-shadow(0 0 2em green);
+}
+.minus:hover {
+  filter: drop-shadow(0 0 2em red);
+}
+
+.cnt{
+  height: 40px;
+  border: 10px red;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
