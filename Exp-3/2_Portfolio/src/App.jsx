@@ -26,7 +26,7 @@ function App(){
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/profile' element={<Profile/>} />
+        <Route path='/' element={<Profile/>} />
         <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
     </BrowserRouter>

@@ -6,6 +6,12 @@ To understand and implement client-side routing in a Single Page Application usi
 ## Description
 This experiment focuses on understanding how routing works in a Single Page Application (SPA). Multiple routes are created to represent different sections of the application such as Profile and Dashboard. Navigation between these sections happens without reloading the page, demonstrating the core concept of SPA routing.
 
+## Screenshots
+
+![Screenshot 1](images/image1.png)
+![Screenshot 2](images/image2.png)
+![Screenshot 3](images/image3.png)
+
 ## Routing Concepts Used
 - Client-side routing using React Router
 - Defining multiple routes for different paths
